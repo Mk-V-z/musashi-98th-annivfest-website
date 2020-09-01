@@ -1,6 +1,0 @@
-{
-    "env": {
-        "BASIC_ID": "@basic_id",
-        "BASIC_PASSWORD": "@basic_password" 
-    }
-}
