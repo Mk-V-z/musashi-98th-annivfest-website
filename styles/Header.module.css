@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+  
+.header_logo {
+  height: 2em; 
+  margin-right: 30%;
+}
+  
+.menu_link {
+}
