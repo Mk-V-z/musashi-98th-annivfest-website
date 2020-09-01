@@ -1,14 +1,28 @@
 .header {
   width: 100%;
   display: flex;
-  padding: 30px;
+  padding: 50px;
   justify-content: space-between;
 }
   
 .header_logo {
   height: 2em; 
-  margin-right: 30%;
+}
+
+.menu_links {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
 }
   
-.menu_link {
+.menu_link:hover,
+.menu_link:focus,
+.menu_link:active {
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding: 50px 8%;
+  }
 }
