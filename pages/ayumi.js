@@ -63,7 +63,7 @@ export default function Ayumi() {
         </div>
       </div>
       <div className={styles.card}>
-        <h1></h1>
+        <h1>Sep</h1>
         <div>
           <p>01st 2学期始業</p>
           <p>23th 記念祭Week開始(〜09.30) 入場門保管展示・グッズ頒布/販売・パンフレット配布・Web公開など</p>
