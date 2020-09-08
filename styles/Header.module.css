@@ -3,10 +3,11 @@
   display: flex;
   padding: 50px;
   justify-content: space-between;
+  transition-duration: 1s;
 }
   
 .header_logo {
-  height: 2em; 
+  height: 2em;
 }
 
 .menu_links {
@@ -19,6 +20,13 @@
 .menu_link:focus,
 .menu_link:active {
   text-decoration: underline;
+}
+
+.scrolling {
+  position: fixed;
+  top: 0;
+  color: white;
+  background-color: black;
 }
 
 @media (min-width: 1200px) {
