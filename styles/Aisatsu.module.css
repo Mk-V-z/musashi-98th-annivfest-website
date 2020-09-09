@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+}
+
+.card img {
+  width: 350px;
+  height: 530px;
+  object-fit: cover;
+  margin: 2rem 0;
+}
+
+.card div {
+  margin: 0 1.5rem;
+}
