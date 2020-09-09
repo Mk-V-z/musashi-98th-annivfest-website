@@ -19,7 +19,9 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${color ? styles.scrolling : '' }`}>
       <Link href="/" as="/">
-        <img src={color ? "/logo1_white.svg" : "/logo1.svg"} alt="kinensai logo" className={styles.header_logo} />
+        <a>
+          <img src={color ? "/logo1_white.svg" : "/logo1.svg"} alt="kinensai logo" className={styles.header_logo} />
+        </a>
       </Link>
       <div className={styles.menu_links}>
         <Link href="/aisatsu" as="/aisatsu">
