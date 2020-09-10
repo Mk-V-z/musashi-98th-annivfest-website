@@ -3,5 +3,14 @@
   padding: 0 8%;
 }
 
-.main {
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 135px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    padding: 0 185px;
+  }
 }
