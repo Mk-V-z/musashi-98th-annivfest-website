@@ -4,12 +4,16 @@
 
 .card {
   display: flex;
-  margin:  3rem 0;
+  margin: 3rem 0;
 }
 
 .card h1 {
   margin: 1rem 0;
   width: 3em;
+}
+
+.card h2 {
+  width: 2.5em;
 }
 
 .card div {

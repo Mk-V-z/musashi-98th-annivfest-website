@@ -24,19 +24,19 @@ export default function Header() {
         </a>
       </Link>
       <div className={styles.menu_links}>
-        <Link href="/aisatsu" as="/aisatsu">
+        <Link href="/greeting" as="/greeting">
           <a className={styles.menu_link}>ごあいさつ</a>
         </Link>
-        <Link href="/ayumi" as="/ayumi">
+        <Link href="/steps" as="/steps">
           <a className={styles.menu_link}>第98回記念祭のあゆみ</a>
         </Link>
-        <Link href="/zadankai" as="/zadankai">
+        <Link href="/symposium" as="/symposium">
           <a className={styles.menu_link}>記念祭座談会</a>
         </Link>
-        <Link href="/aisatsu" as="/aisatsu">
-          <a className={styles.menu_link}>パート紹介</a>
+        <Link href="/part" as="/part">
+          <a className={styles.menu_link}>小委員会紹介</a>
         </Link>
-        <Link href="/aisatsu" as="/aisatsu">
+        <Link href="/group" as="/group">
           <a className={styles.menu_link}>団体紹介</a>
         </Link>
       </div>

@@ -1,7 +1,7 @@
 import Layout from '../components/layout'
-import styles from '../styles/Aisatsu.module.css'
+import styles from '../styles/Greeting.module.css'
 
-export default function Aisatsu() {
+export default function Greeting() {
   return (
     <Layout>
       <h1>ごあいさつ</h1>
