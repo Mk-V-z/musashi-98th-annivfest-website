@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import styles from '../styles/Layout.module.css'
 
 export default function Layout({ children }) {
-  const [isFixed, setToFixed] = useState(0);
+  const [isFixed, setToFixed] = useState(false);
 
   useEffect(function mount() {
     function onScroll() {
