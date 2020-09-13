@@ -1,26 +1,12 @@
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
-import { useState, useEffect } from 'react'
 
-export default function Header() {
-  const [color, setColor] = useState(0);
-
-  useEffect(function mount() {
-    function onScroll() {
-      if(window.pageYOffset > 100) setColor(true)
-      else setColor(false)
-    }
-    window.addEventListener("scroll", onScroll)
-    return function unMount() {
-      window.removeEventListener("scroll", onScroll)
-    }
-  })
-
+export default function Header(props) {
   return (
-    <header className={`${styles.header} ${color ? styles.scrolling : '' }`}>
+    <header className={`${styles.header} ${props.isFixed ? styles.scrolling : '' }`}>
       <Link href="/" as="/">
         <a>
-          <img src={color ? "/logo1_white.svg" : "/logo1.svg"} alt="kinensai logo" className={styles.header_logo} />
+          <img src={props.isFixed ? "/logo1_white.svg" : "/logo1.svg"} alt="kinensai logo" className={styles.header_logo} />
         </a>
       </Link>
       <div className={styles.menu_links}>
